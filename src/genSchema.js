@@ -57,7 +57,7 @@ const toTypeDefsInput = (type, fields) => `
 
 const toQuery = (type, fields) => `
   type Query {
-    ${type.toLowerCase()}s(limit: Int, offset: Int): [${type}]
+    ${pluralize(type.toLowerCase())}s(limit: Int, offset: Int): [${type}]
     ${type.toLowerCase()}(id: ID!): ${type}
   }`
 
