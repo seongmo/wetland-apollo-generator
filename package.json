@@ -1,0 +1,25 @@
+{
+  "name": "wetland-apollo-generator",
+  "version": "0.0.0",
+  "description": "Apollo server schema generator from wetland entities",
+  "bin": {
+    "wetland-apollo-gen": "./src/gen.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "pluralize": "^7.0.0",
+    "prettier": "^1.15.2",
+    "ramda": "^0.26.1",
+    "shelljs": "^0.8.3",
+    "wetland": "^4.1.5"
+  },
+  "devDependencies": {
+    "sqlite3": "^4.0.4"
+  }
+}
